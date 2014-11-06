@@ -12,8 +12,8 @@ body {
 }
 
 body * {
-	margin: 0 px; /* Clearing the margin for everything within the body. */
-	padding: 0 px; /* Clearing the padding for everything within the body. */
+	margin: 0px; /* Clearing the margin for everything within the body. */
+	padding: 0px; /* Clearing the padding for everything within the body. */
 }
 
 .container {
@@ -25,7 +25,7 @@ h1 {
 	color: rgba(0,0,0,0.9); /*Setting the text color for h1 header.*/
 	background-color: #000000  /* Setting the background color for Main 1 headers */
 	box-shadow: 0px 0px 25px 5px rgba(255,239,213,0.4); /* Adds a drop shadow to h1 headers */
-	font-family: Optima, "Trebuchet MS", Arial, "Century Gothic", sans-serif; /* This determines which fonts should be used for the h1 header */
+	font-family: "Trebuchet MS", Arial, "Century Gothic", sans-serif; /* This determines which fonts should be used for the h1 header */
 	font-size: 30px ; /* The size the font will be in px. */
 	font-weight: 200 ; /* This determines how light or heavy the font will appear.*/
 	margin-bottom: 15px; /*This pushes all margins downward.*/
@@ -36,7 +36,7 @@ h1 {
 
 h2 {
 	background-color: #C0C0C0; /* Setting the background color for h2 headers */
-	font-family: Optima, "Trebuchet MS", Arial, "Century Gothic", sans-serif;/* This determines which fonts should be used for the h2 header. */
+	font-family: "Trebuchet MS", Arial, "Century Gothic", sans-serif;/* This determines which fonts should be used for the h2 header. */
 	font-size: 24px; /* Font size for h2 header. */
 	font-style: solid; /* h2 headers will have bold text. */
 	margin-bottom: 15px ; /* Pushing elements downward below the h2 header */
@@ -45,7 +45,7 @@ h2 {
 	
 h3 {	
 	background-color: #C0C0C0; /* Setting the background color for h3 headers */
-	font-family: Optima, "Trebuchet MS", Arial, "Century Gothic", sans-serif;; /* This determines which fonts should be used for the h3 header */
+	font-family: "Trebuchet MS", Arial, "Century Gothic", sans-serif;; /* This determines which fonts should be used for the h3 header */
 	font-size: 18px ; /* Font size for h3 header*/
 	font-style: solid; /* h3 headers will have bold text. */
 	margin-bottom: 15px ; /* Pushing elements downward below the h3 header */
@@ -54,7 +54,7 @@ h3 {
 
 h4 {	
 	background-color: #C0C0C0; /* Setting the background color for h4 headers */
-	font-family: Optima, "Trebuchet MS", Arial, "Century Gothic", sans-serif; /* This determines which fonts should be used for the h4 header */
+	font-family:"Trebuchet MS", Arial, "Century Gothic", sans-serif; /* This determines which fonts should be used for the h4 header */
 	font-size: 16px ; /* Font size for h3 header*/
 	font-style: solid; /* h4 headers will have bold text. */
 	margin-bottom: 15px ; /* Pushing elements downward below the h4 header */
@@ -67,12 +67,12 @@ p {
 	
 p, a {
 	line-height: 20px ; /* line height between lines for a and p */
-	font-family: "Droid Serif",Garamond,Baskerville,serif ; /*font for a and p */
+	font-family: "Droid Serif", Garamond, serif ; /*font for a and p */
 	font-size: 12px ; /* This is the size of the font for a and p */
 	}
 
 li a {
-	font-family: Optima, "Trebuchet MS", Arial, "Century Gothic", sans-serif; /* This determines which fonts should be used for the lists. */
+	font-family: "Trebuchet MS", Arial, "Century Gothic", sans-serif; /* This determines which fonts should be used for the lists. */
 	font-size: 18px ; /* Sets the size of the font for the lists. */
 	}
 
@@ -115,7 +115,7 @@ figure img {
 
 figcaption {
 	display: inline-block ; /* Display is set to and inline-block.*/
-	font-family: Optima, "Trebuchet MS", Arial, "Century Gothic", sans-serif; /* Setting font */
+	font-family:"Trebuchet MS", Arial, "Century Gothic", sans-serif; /* Setting font */
 	font-weight: 200 ; /* Sets font weight. */
 	margin-left: 20px ; /* Sets left margin. */
 	text-align: center ; /* Centering the text for the design */
