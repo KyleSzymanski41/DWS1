@@ -7,13 +7,13 @@ DWS1- Project 2
 body {
 	background-color: #F5F5F5; /*Setting the background color within the body element.*/
 	color: #B22222 ; /* This is setting the color of the text within the body element. */
-	margin 0px; /* clearing the margin the body */
-	padding 0px; /* clearing the padding of the body. */
+	margin: 0px; /* clearing the margin the body. */
+	padding: 0px; /* clearing the padding of the body. */
 }
 
 body * {
-	margin 0px; /* Clearing the margin for everything within the body. */
-	padding 0px; /* Clearing the padding for everything within the body. */
+	margin: 0 px; /* Clearing the margin for everything within the body. */
+	padding: 0 px; /* Clearing the padding for everything within the body. */
 }
 
 .container {
