@@ -38,7 +38,7 @@ h2 {
 	background-color: #C0C0C0; /* Setting the background color for h2 headers */
 	font-family: "Trebuchet MS", Arial, "Century Gothic", sans-serif;/* This determines which fonts should be used for the h2 header. */
 	font-size: 24px; /* Font size for h2 header. */
-	font-style: solid; /* h2 headers will have bold text. */
+	font-style: normal; /* h2 headers will have bold text. */
 	margin-bottom: 15px ; /* Pushing elements downward below the h2 header */
 	padding: 25px; /* This will make element of the header large enough to fill container.*/
 	}
@@ -47,7 +47,7 @@ h3 {
 	background-color: #C0C0C0; /* Setting the background color for h3 headers */
 	font-family: "Trebuchet MS", Arial, "Century Gothic", sans-serif;; /* This determines which fonts should be used for the h3 header */
 	font-size: 18px; /* Font size for h3 header*/
-	font-style: solid; /* h3 headers will have bold text. */
+	font-style: normal; /* h3 headers will have bold text. */
 	margin-bottom: 15px; /* Pushing elements downward below the h3 header */
 	padding: 15px; /* This will make element of the header large enough to fill container.*/
 	}	
@@ -56,13 +56,13 @@ h4 {
 	background-color: #C0C0C0; /* Setting the background color for h4 headers */
 	font-family:"Trebuchet MS", Arial, "Century Gothic", sans-serif; /* This determines which fonts should be used for the h4 header */
 	font-size: 16px; /* Font size for h3 header*/
-	font-style: solid; /* h4 headers will have bold text. */
+	font-style: normal; /* h4 headers will have bold text. */
 	margin-bottom: 15px; /* Pushing elements downward below the h4 header */
 	padding: 15px; /* This will make element of the header large enough to fill container.*/
 	}		
 	
 p {
-	margin 20px; /* Setting the margin for the paragraphs to create some separation from the headers. */
+	margin: 20px; /* Setting the margin for the paragraphs to create some separation from the headers. */
 	}
 	
 p, a {
