@@ -9,12 +9,12 @@ body {
 	color: #B22222 ; /* This is setting the color of the text within the body element. */
 	margin 0px; /* clearing the margin the body */
 	padding 0px; /* clearing the padding of the body. */
-	}
+}
 
 body * {
 	margin 0px; /* Clearing the margin for everything within the body. */
 	padding 0px; /* Clearing the padding for everything within the body. */
-	}
+}
 
 .container {
 	margin: auto; /* Setting the margin to auto for container will center it. */
@@ -25,38 +25,38 @@ h1 {
 	color: rgba(0,0,0,0.9); /*Setting the text color for h1 header.*/
 	background-color: #000000  /* Setting the background color for Main 1 headers */
 	box-shadow: 0px 0px 25px 5px rgba(255,239,213,0.4); /* Adds a drop shadow to h1 headers */
-	font-family: "Optima", "Trebuchet MS", "Arial", "Century Gothic", sans-serif; /* This determines which fonts should be used for the h1 header */
+	font-family: Optima, "Trebuchet MS", Arial, "Century Gothic", sans-serif; /* This determines which fonts should be used for the h1 header */
 	font-size: 30px ; /* The size the font will be in px. */
-	font-weight: 175 ; /* This determines how light or heavy the font will appear.*/
-	margin-bottom: 15px; */ This pushes all margins downward.*/
+	font-weight: 200 ; /* This determines how light or heavy the font will appear.*/
+	margin-bottom: 15px; /*This pushes all margins downward.*/
 	padding: 25px; /*This will make element of the header large enough to fill container. */
-	text-align: right; /* Aligns text to the right. */
+	text-align: right; /* Aligns text to the right.*/
 	text-indent: 50px /* indents text from the right without effecting margin or padding. */
 	}
 
 h2 {
 	background-color: #C0C0C0; /* Setting the background color for h2 headers */
-	font-family: "Optima", "Trebuchet MS", "Arial", "Century Gothic", sans-serif; /* This determines which fonts should be used for the h2 header */
-	font-size: 24px ; /* Font size for h2 header*/
-	font-style: bold; /* h2 headers will have bold text. */
+	font-family: Optima, "Trebuchet MS", Arial, "Century Gothic", sans-serif;/* This determines which fonts should be used for the h2 header. */
+	font-size: 24px; /* Font size for h2 header. */
+	font-style: solid; /* h2 headers will have bold text. */
 	margin-bottom: 15px ; /* Pushing elements downward below the h2 header */
 	padding: 25px ; /* This will make element of the header large enough to fill container.*/
 	}
 	
 h3 {	
 	background-color: #C0C0C0; /* Setting the background color for h3 headers */
-	font-family: "Optima", "Trebuchet MS", "Arial", "Century Gothic", sans-serif; /* This determines which fonts should be used for the h3 header */
-	font-size: 18x ; /* Font size for h3 header*/
-	font-style: bold; /* h3 headers will have bold text. */
+	font-family: Optima, "Trebuchet MS", Arial, "Century Gothic", sans-serif;; /* This determines which fonts should be used for the h3 header */
+	font-size: 18px ; /* Font size for h3 header*/
+	font-style: solid; /* h3 headers will have bold text. */
 	margin-bottom: 15px ; /* Pushing elements downward below the h3 header */
 	padding: 15px ; /* This will make element of the header large enough to fill container.*/
 	}	
 
 h4 {	
 	background-color: #C0C0C0; /* Setting the background color for h4 headers */
-	font-family: "Optima", "Trebuchet MS", "Arial", "Century Gothic", sans-serif; /* This determines which fonts should be used for the h4 header */
-	font-size: 16x ; /* Font size for h3 header*/
-	font-style: bold; /* h4 headers will have bold text. */
+	font-family: Optima, "Trebuchet MS", Arial, "Century Gothic", sans-serif; /* This determines which fonts should be used for the h4 header */
+	font-size: 16px ; /* Font size for h3 header*/
+	font-style: solid; /* h4 headers will have bold text. */
 	margin-bottom: 15px ; /* Pushing elements downward below the h4 header */
 	padding: 15px ; /* This will make element of the header large enough to fill container.*/
 	}		
@@ -67,17 +67,17 @@ p {
 	
 p, a {
 	line-height: 20px ; /* line height between lines for a and p */
-	font-family: "Droid Serif", "Garamond", "Baskerville", serif ; /*font for a and p */
+	font-family: "Droid Serif",Garamond,Baskerville,serif ; /*font for a and p */
 	font-size: 12px ; /* This is the size of the font for a and p */
 	}
 
 li a {
-	font-family: "Optima", "Trebuchet MS", "Arial", "Century Gothic", sans-serif; /* This determines which fonts should be used for the lists. */
+	font-family: Optima, "Trebuchet MS", Arial, "Century Gothic", sans-serif; /* This determines which fonts should be used for the lists. */
 	font-size: 18px ; /* Sets the size of the font for the lists. */
 	}
 
-a:link {color: ##0000CD; text-decoration: none;} /* Creates a default color for the link*/
-a:visited {color: ##800080; text-decoration: none;} /* Creates a color for a visited link */
+a:link {color: #0000CD; text-decoration: none;} /* Creates a default color for the link*/
+a:visited {color: #800080; text-decoration: none;} /* Creates a color for a visited link */
 a:hover {color: #4682B4; text-decoration: none;} /* Sets color of link when mouse is hovered over link. */
 a:active {color: #BF5E5E; text-decoration: none;} /* Creating color for link when it has become active.*/
 
@@ -93,7 +93,7 @@ ul {
 	}
 
 .container ul:hover {
-    opacity: 3 ; /* Sets the opacity for .container when mouse is hovering. */
+    opacity: 1; /* Sets the opacity for .container when mouse is hovering. */
     }
 
 li {
@@ -115,10 +115,10 @@ figure img {
 
 figcaption {
 	display: inline-block ; /* Display is set to and inline-block.*/
-	font-family: "Optima", "Trebuchet MS", "Arial", "Century Gothic", sans-serif; /* Setting font */
-	font-weight: 175 ; /* Sets font weight. */
+	font-family: Optima, "Trebuchet MS", Arial, "Century Gothic", sans-serif; /* Setting font */
+	font-weight: 200 ; /* Sets font weight. */
 	margin-left: 20px ; /* Sets left margin. */
 	text-align: center ; /* Centering the text for the design */
 	text-indent: 25px ; /* Indenting text. */
-	width: 400px ; /*Setting the width for figcaption*/
+	width: 400px; /*Setting the width for figcaption*/
 }		
