@@ -23,7 +23,7 @@ body * {
 
 h1 {
 	color: rgba(0,0,0,0.9); /*Setting the text color for h1 header.*/
-	background-color: #000000;  /* Setting the background color for Main 1 headers */
+	background-color: #C0C0C0;  /* Setting the background color for Main 1 headers */
 	box-shadow: 0px 0px 25px 5px rgba(255,239,213,0.4); /* Adds a drop shadow to h1 headers */
 	font-family: "Trebuchet MS", Arial, "Century Gothic", sans-serif; /* This determines which fonts should be used for the h1 header */
 	font-size: 30px ; /* The size the font will be in px. */
