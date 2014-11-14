@@ -36,7 +36,7 @@ h1 {
 	font-weight: 200 ; /* This determines how light or heavy the font will appear.*/
 	margin-bottom: 15px; /*This pushes all margins downward.*/
 	padding: 25px; /*This will make element of the header large enough to fill container. */
-	text-align: Left; /* Aligns text to the right.*/
+	text-align: center; /* Aligns text to the right.*/
 	text-indent: 50px; /* indents text from the right without effecting margin or padding. */
 }
 
