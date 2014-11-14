@@ -1,9 +1,9 @@
 /*
 Kyle Szymanski
-DWS1- Project 2
-11/5/14
+DWS1- Project 3
+11/13/14
 */
-
+/* Layout */
 body {
 	background-color: #A9A9A9; /*Setting the background color within the body element.*/
 	background-image: url("../images/presence.png");
@@ -76,7 +76,7 @@ p {
 p, a {
 	line-height: 20px; /* line height between lines for a and p */
 	font-family: "Droid Serif", Garamond, serif ; /*font for a and p */
-	font-size: 12px; /* This is the size of the font for a and p */
+	font-size: 0.075em; /* This is the size of the font for a and p */
 }
 
 li a {
@@ -99,6 +99,7 @@ a:active {
 	color: #BF5E5E; text-decoration: none;
 } /* Creating color for link when it has become active.*/
 
+/* Nav section */
 ul {
 	background-color: rgb(255,250,250); /* Setting the background color of ul. */
 	border: 4px solid rgba(0,0,0,0.8); /* Creates a black border. */
@@ -134,26 +135,28 @@ figure img {
 figcaption {
 	display: inline-block; /* Display is set to and inline-block.*/
 	font-family:"Trebuchet MS", Arial, "Century Gothic", sans-serif; /* Setting font */
+	font-size: 0.075em
 	font-weight: 200; /* Sets font weight. */
 	margin-left: 20px; /* Sets left margin. */
-	text-align: center; /* Centering the text for the design */
-	text-indent: 25px; /* Indenting text. */
-	width: 400px; /*Setting the width for figcaption*/
+	text-align: left; /* Centering the text for the design */
+	text-indent: 0%; /* Indenting text. */
+	width: 50%; /*Setting the width for figcaption*/
 }		
 
-.coloumn1  {
-	width: 40%;
+/* Layout cont. */
+.column1  { /* created column */
+	width: 50%;
 	margin: 4%;
 	float: left;
 }
 
-.coloumn2  {
-	width: 40%;
+.column2  {    /* created a second column*/
+	width: 30%;
 	margin: 4%;
 	float: left;
-	border:6px solid rgb(178,34,34);
-	border-radius: 14px;
-	background: rgb(255,183,107); /* Old browsers */
+	border:4px solid rgb(178,34,34);
+	border-radius: 10px;
+	background: rgb(255,183,107); /* Old browsers */ /* code for gradient */
 background: -moz-linear-gradient(top,  rgb(255,183,107) 0%, rgb(255,124,0) 100%, rgb(255,127,4) 100%); /* FF3.6+ */
 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(255,183,107)), color-stop(100%,rgb(255,124,0)), color-stop(100%,rgb(255,127,4))); /* Chrome,Safari4+ */
 background: -webkit-linear-gradient(top,  rgb(255,183,107) 0%,rgb(255,124,0) 100%,rgb(255,127,4) 100%); /* Chrome10+,Safari5.1+ */
@@ -165,12 +168,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffb76b', end
 	
 }
 
-#camera {
+#camera { /*created camera for image */
 	background-image: url("../images/camera.png");
 	background-repeat: no-repeat;
+	background-position: top left;
 	padding: 10px 0 0 40px;
 	}
 
-#footer {
+#footer { /* cleared floats */
 	clear: both;
 	}
